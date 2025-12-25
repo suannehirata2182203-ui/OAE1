@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Dubai Pool Insights. Send questions, feedback, or share your own experiences about Dubai Pool.">
+    <meta name="keywords" content="contact Dubai Pool review, pool review contact, Dubai pool questions">
+    <meta name="author" content="Sarah Mitchell">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact - Dubai Pool Insights">
+    <meta property="og:description" content="Get in touch with questions, feedback, or to share your own Dubai Pool experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dubaipoolreview.com/contact.html">
+    <link rel="canonical" href="https://www.dubaipoolreview.com/contact.html">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/article.css">
+    <title>Contact - Dubai Pool Insights</title>
+</head>
+<body>
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-content">
+            <div class="loader-wave"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <header class="main-header" role="banner">
+        <div class="header-container">
+            <div class="logo-section">
+                <a href="home.html" class="logo-link" aria-label="Home">
+                    <h1 class="site-title">Dubai Pool Insights</h1>
+                    <span class="site-subtitle">Authentic Experiences</span>
+                </a>
+            </div>
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="home.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li class="nav-articles">
+                        <span class="nav-link">Articles</span>
+                        <ul class="submenu">
+                            <li><a href="pool-experience-1.html">First Visit Experience</a></li>
+                            <li><a href="pool-experience-2.html">Facilities & Amenities</a></li>
+                            <li><a href="pool-experience-3.html">Tips & Recommendations</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content article-main" role="main">
+        <article class="article-post">
+            <header class="article-header">
+                <h1 class="article-main-title">Contact Me</h1>
+                <p class="article-intro" style="margin-top: 1rem; font-style: normal;">Have questions about Dubai Pool? Want to share your own experience? I'd love to hear from you.</p>
+            </header>
+
+            <div class="article-body">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>I'm always interested in hearing from other visitors, answering questions, and learning from your experiences. Whether you're planning your first visit or you're a regular like me, feel free to reach out.</p>
+                        
+                        <div class="contact-details">
+                            <h3>Contact Information</h3>
+                            <address class="contact-address">
+                                <p><strong>Email:</strong> <a href="mailto:sarah.mitchell@dubaipoolreview.com">sarah.mitchell@dubaipoolreview.com</a></p>
+                                <p><strong>Location:</strong> Dubai, UAE</p>
+                            </address>
+                            <p class="response-note">I typically respond to emails within 2-3 business days. If your question is urgent, please indicate that in your message.</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" action="#" method="post" novalidate>
+                        <h2>Send a Message</h2>
+                        
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-error">
+                            <span class="error-message" id="name-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-error">
+                            <span class="error-message" id="email-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" aria-describedby="subject-help">
+                            <span class="help-text" id="subject-help">Optional - helps me organize messages</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="6" required aria-required="true" aria-describedby="message-error"></textarea>
+                            <span class="error-message" id="message-error" role="alert"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label>
+                                <input type="checkbox" id="privacy" name="privacy" required aria-required="true">
+                                <span>I agree to the <a href="policy.html" target="_blank">Privacy Policy</a> <span class="required">*</span></span>
+                            </label>
+                            <span class="error-message" id="privacy-error" role="alert"></span>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="form-message" id="formMessage" role="alert"></div>
+                    </form>
+                </div>
+
+                <div class="faq-section">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-item">
+                        <h3>How often do you visit Dubai Pool?</h3>
+                        <p>I visit regularly, typically once or twice a month. This allows me to experience different times of day, different seasons, and stay current with any changes to the facility.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are your reviews sponsored?</h3>
+                        <p>No. I pay for my own visits and write independently. These articles are not sponsored content or marketing material—they're honest observations from a regular visitor.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I share my own experience?</h3>
+                        <p>Absolutely! I'm always interested in hearing from other visitors. Your experiences can help me provide more comprehensive information to readers.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you accept guest posts?</h3>
+                        <p>I'm not currently accepting guest posts, but I'm always open to hearing about your experiences and potentially incorporating them into future articles.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3 class="footer-title">Dubai Pool Insights</h3>
+                <p class="footer-text">Authentic experiences and honest reviews from a regular visitor.</p>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Articles</h4>
+                <ul class="footer-links">
+                    <li><a href="pool-experience-1.html">First Visit Experience</a></li>
+                    <li><a href="pool-experience-2.html">Facilities & Amenities</a></li>
+                    <li><a href="pool-experience-3.html">Tips & Recommendations</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-heading">Contact Information</h4>
+                <address class="footer-contact">
+                    <p>Email: <a href="mailto:sarah.mitchell@dubaipoolreview.com">sarah.mitchell@dubaipoolreview.com</a></p>
+                    <p>Location: Dubai, UAE</p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dubai Pool Insights. All rights reserved. Last updated: March 2025</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/contact.js"></script>
+</body>
+</html>

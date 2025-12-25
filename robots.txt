@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dubaipoolreview.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Disallow: /scripts/
+Disallow: /styles/
