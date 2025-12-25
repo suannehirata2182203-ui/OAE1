@@ -1,2 +1,3 @@
 root: .
-directory_index: home.html
+directory: .
+index: home.html
